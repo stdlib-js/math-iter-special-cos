@@ -34,30 +34,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-iter-special-cos
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterCos = require( '@stdlib/math-iter-special-cos' );
+import iterCos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-cos@deno/mod.js';
 ```
 
 #### iterCos( iterator )
@@ -65,7 +49,7 @@ var iterCos = require( '@stdlib/math-iter-special-cos' );
 Returns an [iterator][mdn-iterator-protocol] which iteratively computes the [cosine][@stdlib/math/base/special/cos].
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
 
 var src = [ 0.0, 3.141592653589793/4.0, -3.141592653589793/6.0 ];
 var it = iterCos( array2iterator( src ) );
@@ -114,8 +98,8 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-iter-randu' );
-var iterCos = require( '@stdlib/math-iter-special-cos' );
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
+import iterCos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-cos@deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
@@ -175,7 +159,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -239,13 +223,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/deno
 
-[@stdlib/math/iter/special/cospi]: https://github.com/stdlib-js/math-iter-special-cospi
+[@stdlib/math/iter/special/cospi]: https://github.com/stdlib-js/math-iter-special-cospi/tree/deno
 
-[@stdlib/math/iter/special/sin]: https://github.com/stdlib-js/math-iter-special-sin
+[@stdlib/math/iter/special/sin]: https://github.com/stdlib-js/math-iter-special-sin/tree/deno
 
-[@stdlib/math/iter/special/tan]: https://github.com/stdlib-js/math-iter-special-tan
+[@stdlib/math/iter/special/tan]: https://github.com/stdlib-js/math-iter-special-tan/tree/deno
 
 <!-- </related-links> -->
 
