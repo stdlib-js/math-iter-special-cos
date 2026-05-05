@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-12)
+## Unreleased (2026-05-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2df9472`](https://github.com/stdlib-js/stdlib/commit/2df9472ff8b4c8dc5b693dac2f64516834d7a5b3) - **chore:** migrate `math/iter/special` examples to `random/iter/uniform` [(#11950)](https://github.com/stdlib-js/stdlib/pull/11950) _(by Philipp Burckhardt)_
 -   [`e090426`](https://github.com/stdlib-js/stdlib/commit/e0904262cee8ac4f036d0f74f6628f8ce95a16d0) - **bench:** refactor to use string interpolation in `math/iter` [(#11382)](https://github.com/stdlib-js/stdlib/pull/11382) _(by Karan Anand)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
